@@ -1,0 +1,20 @@
+{
+  "benchmark": "Radon_Complexity_Lab_Results",
+  "project": "K_DREAMER4",
+  "run_timestamp": "2026-09-30T17:14:20.030944+00:00",
+  "source": "https://radon.readthedocs.io/",
+  "results": {
+    "framework": "Radon \u2014 Cyclomatic Complexity & Maintainability Index",
+    "source": "https://radon.readthedocs.io/",
+    "files_analyzed": 10,
+    "average_complexity": {
+      "grade": "A",
+      "score": 4.268817204301075
+    },
+    "complexity_grade": "A",
+    "complexity_score": 4.268817204301075,
+    "status": "PASS",
+    "raw_output": "E:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\K_DREAMER4\\UPSTREAM\\plot.py\n    F 150:0 comp_stats - D (26)\n    F 23:0 load_run - C (17)\n    F 53:0 load_runs - C (17)\n    F 203:0 plot_runs - C (15)\n    F 303:0 legend - B (8)\n    F 351:0 natfmt - B (8)\n    F 88:0 bin_runs - B (6)\n    F 287:0 curve - B (6)\n    F 265:0 style - A (5)\n    F 114:0 comp_stat - A (4)\n    F 137:0 comp_count - A (3)\n    F 345:0 natsort - A (3)\n    F 382:0 main - A (3)\n    F 254:0 plots - A (2)\n    F 332:0 silent - A (1)\n    F 369:0 print_summary - A (1)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\K_DREAMER4\\UPSTREAM\\setup.py\n    F 5:0 parse_reqs - A (3)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\K_DREAMER4\\UPSTREAM\\dreamerv3\\agent.py\n    M 156:2 Agent.loss - C (16)\n    M 342:2 Agent._make_opt - B (9)\n    M 33:2 Agent.__init__ - B (8)\n    M 247:2 Agent.report - B (8)\n    F 382:0 imag_loss - B (7)\n    M 312:2 Agent._apply_replay_context - B (7)\n    C 24:0 Agent - B (6)\n    M 137:2 Agent.train - A (4)\n    M 115:2 Agent.policy - A (3)\n    F 449:0 repl_loss - A (2)\n    F 482:0 lambda_return - A (2)\n    M 90:2 Agent.ext_space - A (2)\n    M 86:2 Agent.policy_keys - A (1)\n    M 101:2 Agent.init_policy - A (1)\n    M 109:2 Agent.init_train - A (1)\n    M 112:2 Agent.init_report - A (1)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\K_DREAMER4\\UPSTREAM\\dreamerv3\\main.py\n    F 19:0 main - C (13)\n    F 183:0 make_replay - B (9)\n    F 152:0 make_logger - B",
+    "mi_output": "E:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\K_DREAMER4\\UPSTREAM\\plot.py - C (6.42)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\K_DREAMER4\\UPSTREAM\\setup.py - A (100.00)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\K_DREAMER4\\UPSTREAM\\dreamerv3\\agent.py - B (18.65)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\K_DREAMER4\\UPSTREAM\\dreamerv3\\main.py - A (29.17)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\K_DREAMER4\\UP"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "benchmark": "HF_Leaderboard_Lab_Results",
+  "project": "K_DREAMER4",
+  "tier": "TIER_5_WORLD_NEURO_EMBODIED",
+  "slug": "danijar/dreamerv3",
+  "commit": "e3f02248693a",
+  "run_timestamp": "2026-09-30T15:07:07.146295+00:00",
+  "isolation": {
+    "environment": "local",
+    "model": "distilbert-base-uncased",
+    "hf_model_load_time_sec": 4.42,
+    "platform": "win32",
+    "python": "3.12.10"
+  },
+  "results": {
+    "framework": "HuggingFace Open LLM Leaderboard (proxy via distilbert-base-uncased)",
+    "source": "https://huggingface.co/docs/leaderboards/en/open_llm_leaderboard/archive",
+    "model_used": "distilbert-base-uncased",
+    "note": "Full MMLU/HellaSwag/TruthfulQA/ARC/Winogrande/GSM8K require GPU. Proxy: inference latency.",
+    "samples_run": 5,
+    "latency_ms": {
+      "avg": 47.67,
+      "min": 41.54,
+      "max": 55.79,
+      "all": [
+        55.79,
+        51.02,
+        43.51,
+        46.49,
+        41.54
+      ]
+    },
+    "status": "PASS",
+    "tokenization": {
+      "model": "distilbert-base-uncased",
+      "input_text": "K_DREAMER4 (danijar/dreamerv3) \u2014 95 files, 10448 source lines, licence MIT, primary language ['Python']",
+      "token_count": 33,
+      "tokens_preview": [
+        "[CLS]",
+        "k",
+        "_",
+        "dreamer",
+        "##4",
+        "(",
+        "dani",
+        "##jar",
+        "/",
+        "dreamer",
+        "##v",
+        "##3",
+        ")",
+        "\u2014",
+        "95",
+        "files",
+        ",",
+        "104",
+        "##48",
+        "source"
+      ],
+      "tokenization_latency_ms": 0.99,
+      "classification_label": "LABEL_0",
+      "classification_score": 0.587,
+      "classification_latency_ms": 117.48,
+      "status": "PASS"
+    }
+  }
+}
